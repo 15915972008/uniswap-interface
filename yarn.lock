@@ -2910,19 +2910,6 @@
   resolved "https://registry.yarnpkg.com/@uniswap/merkle-distributor/-/merkle-distributor-1.0.1.tgz#dc3d911f65a860fc3f0cae074bdcd08ed6a27a4d"
   integrity sha512-5gDiTI5hrXIh5UWTrxKYjw30QQDnpl8ckDSpefldNenDlYO1RKkdUYMYpvrqGi2r7YzLYTlO6+TDlNs6O7hDRw==
 
-"@uniswap/sdk@3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@uniswap/sdk/-/sdk-3.0.3.tgz#8201c7c72215d0030cb99acc7e661eff895c18a9"
-  integrity sha512-t4s8bvzaCFSiqD2qfXIm3rWhbdnXp+QjD3/mRaeVDHK7zWevs6RGEb1ohMiNgOCTZANvBayb4j8p+XFdnMBadQ==
-  dependencies:
-    "@uniswap/v2-core" "^1.0.0"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
-
 "@uniswap/token-lists@^1.0.0-beta.19":
   version "1.0.0-beta.19"
   resolved "https://registry.yarnpkg.com/@uniswap/token-lists/-/token-lists-1.0.0-beta.19.tgz#5256db144fba721a6233f43b92ffb388cbd58327"
@@ -8863,10 +8850,10 @@ https-browserify@^1.0.0:
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
-huiwan-v2-sdk@^3.0.6-mainnet:
-  version "3.0.6-mainnet"
-  resolved "https://registry.yarnpkg.com/huiwan-v2-sdk/-/huiwan-v2-sdk-3.0.6-mainnet.tgz#f2cd2a03ea3e7d75e206b01dd98263d1f0165423"
-  integrity sha512-b8cbkG243sAwy9P/Iq1o9mX6ogfLZDYPQ3xlXzywupagNLkgSnlvaGC4UMK5zwVyJhh8O3gZLB5UkhiIPeUPQQ==
+huiwan-v2-sdk@^3.0.8-mainnet:
+  version "3.0.8-mainnet"
+  resolved "https://registry.yarnpkg.com/huiwan-v2-sdk/-/huiwan-v2-sdk-3.0.8-mainnet.tgz#0a57c1fd32a339b044d59115393a3baf39db62c4"
+  integrity sha512-RqeeYtfZyl7lyDi5EeyxFBrT6ICN9kxLu2Tm6u8bMB+6gZuEbvUnKIovyqJP9cYYESM8UTfgaVmKQD1muwqAeg==
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
     big.js "^5.2.2"

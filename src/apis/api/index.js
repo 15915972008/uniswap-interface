@@ -5,9 +5,9 @@ import { usdtAbi } from '../../abi/usdt.abi.js' // usdtTokenABI
 import Contract from '../contract/index.js'
 
 const usdtAddr = `0xa71EdC38d189767582C38A3145b5873052c3e47a` // usdtTokenAddr
-const trsAddr = `0x0c88c8698417f8ab01fbf6a8a595b35747a3c1e5` //  huiwanTokenAddr
-const trsUsdtPairAddr = `0x0748328634d1c0d31b479735794b1371ea90170a` //  huiwanUsdtMdexAddr
-const trsUsdtPoolAddr = `0x563b7476589cFEB6ef136Ea4FD9121bd1799F5FA` //  huiwanUsdtLoopAddr
+const trsAddr = `0xb4292e40B33daf0214364Fe27453110C69051D90` //  huiwanTokenAddr
+const trsUsdtPairAddr = `0x6f26ddacd8b9c39deb1ef5aa742157a09c9a3a98` //  huiwanUsdtMdexAddr
+const trsUsdtPoolAddr = `0x3e29F7FB187991DE1DDd7AFd7420870e28199665` //  huiwanUsdtLoopAddr
 
 
 const usdtTokenAddr = usdtAddr

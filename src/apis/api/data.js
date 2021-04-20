@@ -6,8 +6,8 @@ import Web3 from "web3";
 // 将小数 *18个0
 // return Web3.utils.toWei(str,'ether')
 const allReward = {
-    starttime: 1618827000,
-    rewardRate: Web3.utils.fromWei('5787037037037037', 'ether')
+    starttime: 1618902000,
+    rewardRate: Web3.utils.fromWei('115740740740740740', 'ether')
 }
 
 function isApprove() {
