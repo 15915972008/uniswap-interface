@@ -31,7 +31,7 @@
     "@uniswap/liquidity-staker": "^1.0.2",
     "@uniswap/merkle-distributor": "1.0.1",
     "@uniswap/sdk": "3.0.3",
-    "huiwan-v2-sdk": "^3.0.6-mainnet",
+    "huiwan-v2-sdk": "^3.0.8-mainnet-okex",
     "@uniswap/token-lists": "^1.0.0-beta.19",
     "@uniswap/v2-core": "1.0.0",
     "@uniswap/v2-periphery": "^1.1.0-beta.0",

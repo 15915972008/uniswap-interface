@@ -39,7 +39,8 @@ export const UNI: { [chainId in ChainId]: Token } = {
   [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
   [ChainId.KOVAN]: new Token(ChainId.KOVAN, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
   [ChainId.HECO_TESTNET]: new Token(ChainId.HECO_TESTNET, "0x23503ff57649ba692e7da7cf2bc758e0d4485987", 18, 'UNI', 'Uniswap'),
-  [ChainId.HECO_MAINNET]: new Token(ChainId.HECO_MAINNET, "0x22C54cE8321A4015740eE1109D9cBc25815C46E6", 18, 'UNI', 'Uniswap')
+  [ChainId.HECO_MAINNET]: new Token(ChainId.HECO_MAINNET, "0x22C54cE8321A4015740eE1109D9cBc25815C46E6", 18, 'UNI', 'Uniswap'),
+  [ChainId.OKEXCHAIN_TESTNET]: new Token(ChainId.OKEXCHAIN_TESTNET, "0x22C54cE8321A4015740eE1109D9cBc25815C46E6", 18, 'UNI', 'Uniswap')
 }
 
 export const COMMON_CONTRACT_NAMES: { [address: string]: string } = {
@@ -60,7 +61,8 @@ const WETH_ONLY: ChainTokenList = {
   [ChainId.GÖRLI]: [WETH[ChainId.GÖRLI]],
   [ChainId.KOVAN]: [WETH[ChainId.KOVAN]],
   [ChainId.HECO_TESTNET]: [WETH[ChainId.HECO_TESTNET]],
-  [ChainId.HECO_MAINNET]: [WETH[ChainId.HECO_MAINNET]]
+  [ChainId.HECO_MAINNET]: [WETH[ChainId.HECO_MAINNET]],
+  [ChainId.OKEXCHAIN_TESTNET]: [WETH[ChainId.OKEXCHAIN_TESTNET]]
 }
 
 // used to construct intermediary pairs for trading
